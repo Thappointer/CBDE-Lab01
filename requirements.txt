@@ -1,0 +1,14 @@
+# Gestió de dades i embeddings (HuggingFace)
+transformers
+datasets
+sentence-transformers
+
+# Connexió a bases de dades
+psycopg2-binary  # Connector per a PostgreSQL
+chromadb         # Connector i base de dades Chroma
+
+# Opcional (per a la part de Pgvector)
+pgvector
+
+# Utilitats matemàtiques/vectors
+numpy

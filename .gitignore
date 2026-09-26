@@ -1,0 +1,18 @@
+# Entorns virtuals
+venv/
+.venv/
+env/
+__pycache__/
+
+# Dades locals del corpus
+data/
+*.csv
+*.json
+*.parquet
+
+# Base de dades local de Chroma
+chroma_data/
+chroma.sqlite3
+
+# Variables d'entorn (si useu contrasenyes per PostgreSQL)
+.env
